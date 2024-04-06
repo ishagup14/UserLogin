@@ -1,0 +1,83 @@
+.login__header{
+    color:#1F41BB;
+    font-weight:700;
+    font-family: poppins;
+    font-size:30px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.login__header_msg{
+    display:flex;
+    font-weight:600;
+    font-family: poppins;
+    font-size:20px;
+    line-height: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.login__input{
+    padding:20px 35px 20px 20px;
+    border-radius: 10px;
+    display:flex;
+    gap:10px;
+    border:2px solid #1F41BB;
+    background-color: #F1F4FF;
+    width:100%;
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 30rem;
+}
+.input::placeholder{
+    font-size:16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: poppins;
+}
+.login__forgotpassword{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: poppins;
+    line-height: 21px;
+    color:#1F41BB;
+
+}
+.login__forgotpassword__main{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.login__button1{
+    border-radius: 10px;
+    padding:15px 20px 15px 20px;
+    background-color: #1F41BB;
+    color:#ffffff;
+    border:none;
+    font:Poppins;
+    cursor:pointer;
+    width:100%;
+    
+}
+.login__button{
+    width:100%;
+}
+.login__button2{
+    border-radius: 10px;
+    padding:15px 20px 15px 20px;
+    font-size:14px;
+    line-height: 21px;
+    cursor:pointer;
+    color:#494949;
+    border:none;
+    font-weight: 600;
+    font-family: Poppins;
+    background-color: #ffffff;
+}
+

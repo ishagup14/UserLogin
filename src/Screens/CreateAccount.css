@@ -1,0 +1,102 @@
+.acc__header{
+    color:#1F41BB;
+    font-weight:700;
+    font-family: poppins;
+    font-size:30px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.acc__header_msg{
+    display:flex;
+    font-weight:600;
+    font-family: poppins;
+    font-size:14px;
+    line-height: 21px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.acc__input{
+    width:357px;
+    height:30px;
+    padding:20px 35px 20px 20px;
+    border-radius: 10px;
+    display:grid;
+    gap:10px;
+    border:2px solid #1F41BB;
+    background-color: #F1F4FF;
+    
+}
+
+input:focus-visible{
+    outline:none;
+    
+}
+
+.acc__input1{
+    width:357px;
+    height:30px;
+    padding:20px 35px 20px 20px;
+    border-radius: 10px;
+    display:grid;
+    gap:10px;
+    border:none;
+    background-color: #F1F4FF;
+}
+
+.acc__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input::placeholder{
+    font-size:16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: poppins;
+}
+.acc__forgotpassword{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: poppins;
+    line-height: 21px;
+    color:#1F41BB;
+
+}
+.acc__forgotpassword__main{
+    display: flex;
+    justify-content: flex-end;
+    width: 31%;
+    height: 38px;
+}
+
+.acc__button1{
+    width:357px;
+    border-radius: 10px;
+    padding:15px 20px 15px 20px;
+    background-color: #1F41BB;
+    color:#ffffff;
+    border:none;
+    height:67px;
+    font:Poppins;
+    cursor:pointer;
+    
+}
+.acc__button2{
+    width:357px;
+    border-radius: 10px;
+    padding:15px 20px 15px 20px;
+    font-size:14px;
+    line-height: 21px;
+    cursor:pointer;
+    color:#494949;
+    border:none;
+    height:67px;
+    font-weight: 600;
+    font-family: Poppins;
+    background-color: #ffffff;
+}
+
